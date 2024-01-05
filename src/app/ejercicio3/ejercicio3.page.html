@@ -1,0 +1,24 @@
+<ion-header class="ion-no-border" >
+  <ion-toolbar color="dark" >
+    <ion-title>Ejercicio 3</ion-title>
+
+    <ion-buttons class="back">
+      <ion-button routerLink="/ejercicio2">
+        <ion-icon name="caret-back-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    <ion-buttons class="next" >
+      <ion-button routerLink="/home">
+        <ion-icon name="ellipsis-horizontal" ></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <app-nav-bar title="... aunque no lo parezca"></app-nav-bar>
+
+  <app-color-list [colors]=colores></app-color-list>
+
+</ion-content>

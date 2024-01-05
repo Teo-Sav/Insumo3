@@ -1,0 +1,44 @@
+ion-header{
+  
+  ion-toolbar{
+    border-end-start-radius : 2rem;
+    border-end-end-radius : 2rem;
+    --min-height: 190px;
+    padding-left: 1.5rem;
+    
+    ion-title{
+      font-family: "Inter",sans-serif;
+      font-weight: 700;
+      font-size: 2rem;
+      height: 33px;
+    }
+    .back{
+
+      position: absolute;
+      top: 20px;
+    }
+    .next{
+    
+      position: absolute;
+      top: 20px;
+      right:15px;
+    }
+  }
+}
+
+ion-content{
+  padding: 20px;
+  ion-col {
+      background-color: #707070;
+      border: solid 1px #fff;
+      color: #fff;
+      text-align: center;
+  }
+  ion-row{
+      margin: 25px;
+  }
+}
+
+ 
+
+
